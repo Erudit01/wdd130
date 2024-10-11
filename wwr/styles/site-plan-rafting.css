@@ -2,29 +2,27 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Rock+Salt&display=swap');
-
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #7851a9   ;
-  --secondary-color: #32989a ;
-  --accent1-color: #8cd867;
-  --accent2-color: #ffffff;
+  --primary-color: #457B9D   ;
+  --secondary-color: #A8DADC ;
+  --accent1-color: #E63946;
+  --accent2-color: white;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Rock Salt";
-  --paragraph-font: Roboto, Helvetica, sans-serif;
+  --heading-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  --paragraph-font: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
-  --headline-color-on-white: #10002b;  /* headlines on a white background */ 
-  --headline-color-on-color: #8cd867; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #10002b; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #8cd867; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #7851a9  ;
-  --nav-link-color: #10002b;
-  --nav-background-color: #ee1b6c;
-  --nav-hover-link-color: #ff871f;
-  --nav-hover-background-color: #32989a;
+  --headline-color-on-white: #457B9D;  /* headlines on a white background */ 
+  --headline-color-on-color: white; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #457B9D; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: white; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #457B9D  ;
+  --nav-link-color: white;
+  --nav-background-color: #E63946;
+  --nav-hover-link-color: white;
+  --nav-hover-background-color: #457B9D;
 }
 
 
@@ -42,7 +40,7 @@ img {
   margin: 0 auto;
   max-width: 300px;
 }
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6 {  
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
 }
