@@ -42,8 +42,8 @@ nav a:hover {
 
 .book,
 .join {
-    background-color: #f1faee;
-    color: #f1faee;
+    /* background-color: black; */
+    color: black;
     text-decoration: none;
 }
 
@@ -63,23 +63,23 @@ footer {
 }
 
 .home-title {
-    color: #f1faee;
+    color: black;
 }
 
 h4 {
-    color: #f1faee;
+    color: black;
 }
 
 .msg h2 {
-    color: #f1faee;
+    color: black;
 }
 
 .msg p {
-    color: #f1faee;
+    color: black;
 }
 
 footer a {
-    color: #f1faee;
+    color: black;
     text-decoration: none;
 }
 
