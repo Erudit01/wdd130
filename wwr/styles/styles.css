@@ -10,7 +10,7 @@
 
 nav a {
     text-align: center;
-    color: #1d3557;
+    color: #F1FAEE;
     text-decoration: none;
 }
 
@@ -95,7 +95,7 @@ footer a:hover {
     width: 80px;
 }
 
-#hero-img{
+#hero-img {
     width: 100%;
 }
 
@@ -103,6 +103,6 @@ footer p {
     font-size: 1.2em;
 }
 
-footer p a:hover{
+footer p a:hover {
     text-decoration: underline;
 }
