@@ -12,7 +12,7 @@
 
 nav a {
     text-align: center;
-    color: #F1FAEE;
+    color: #fcfbfb;
     text-decoration: none;
     padding: 35px;
 }
@@ -145,4 +145,8 @@ h2 {
 
 main section img {
     box-sizing: border-box;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
 }
