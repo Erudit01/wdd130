@@ -3,16 +3,16 @@ a {
     text-decoration: none;
 }
 
-.pink-background{
+.pink-background {
     background-color: hotpink;
 }
 
-#my-name{
+#my-name {
     color: white;
     background-color: plum;
     padding: 10px;
 }
 
-p{
+p {
     background-color: green;
 }
