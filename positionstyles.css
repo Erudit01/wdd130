@@ -32,35 +32,57 @@
 /* Activity 2 styles */
 .content2 {
   /* This is the parent of the activity 2 boxes. */
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
 }
-.red2 {
-  width: 100px;
-  height: 100px;
-  background-color: red;
-}
-.green2 {
-  width: 100px;
-  height: 100px;
-  background-color: green;
-}
-.yellow2 {
-  width: 100px;
-  height: 100px;
-  background-color: gold;
-}
+
+.red2,
+.green2,
+.yellow2,
 .blue2 {
+  position: absolute;
   width: 100px;
   height: 100px;
+}
+
+.red2 {
+  background-color: red;
+  top: 0;
+  left: 0;
+}
+
+.green2 {
+  background-color: green;
+  top: 30px;
+  left: 30px;
+}
+
+.yellow2 {
+  background-color: gold;
+  top: 60px;
+  left: 60px;
+}
+
+.blue2 {
   background-color: blue;
+  top: 90px;
+  left: 90px;
 }
 /* Activity 3 styles */
 .content3 {
   /* This is the parent of the activity 3 boxes. */
+  display: grid; /* Use grid layout */
+  grid-template-columns: repeat(2, 100px); /* Create 2 columns of 100px each */
+  grid-column-gap: 20px; /* Set the gap between columns */
+  margin: 20px;
 }
 .red3 {
-  width: 100px;
+  width: 100%;
   height: 100px;
   background-color: red;
+  grid-column: 1/3;
 }
 .green3 {
   width: 100px;
@@ -73,39 +95,47 @@
   background-color: gold;
 }
 .blue3 {
-  width: 100px;
+  width: 100%;
   height: 100px;
   background-color: blue;
+  grid-column: 1/3;
 }
 /* Activity 4 styles */
 .content4 {
   /* This is the parent of the activity 4 boxes. */
   height: 400px;
+  display: grid;
+  grid-template-columns: 100px 300px;
+  grid-template-rows: 300px 100px 100px;
+  width: 400px;
+  margin: 20px auto;
 }
 .red4 {
-  width: 100px;
-  height: 100px;
   background-color: red;
+  grid-column: 1;
+  grid-row: 1 / span 3;
 }
 .green4 {
-  width: 100px;
-  height: 100px;
   background-color: green;
+  grid-column: 2;
+  grid-row: 1;
 }
 .yellow4 {
-  width: 100px;
-  height: 100px;
   background-color: gold;
+  grid-column: 2;
+  grid-row: 2;
 }
 .blue4 {
-  width: 100px;
-  height: 100px;
   background-color: blue;
+  grid-column: 2;
+  grid-row: 3;
 }
 /* Activity 5 styles */
 .content5 {
   /* This is the parent of the activity 5 boxes. */
-  height: 400px;
+  width: 500px;
+  margin: 20px auto;
+  overflow: auto;
 }
 .red5 {
   width: 100px;
