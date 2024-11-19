@@ -288,3 +288,51 @@ main section img {
     margin-top: 25px;
   }
 }
+
+/* CSS for rivers.html */
+
+.image-content {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+  padding: 10px;
+}
+
+.image-content img {
+  max-width: 200px;
+  margin-right: 20px;
+}
+
+.image-content p {
+  flex: 1;
+  margin: 0 10px;
+}
+
+.grid-container {
+  display: grid;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 20px;
+  max-width: 1200px;
+  margin: 20px auto;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.grid-item img {
+  max-width: 200px;
+  height: auto;
+  margin-bottom: 10px;
+  margin-right: 20px;
+}
+
+.grid-item p {
+  flex: 1;
+  margin: 0;
+  text-align: center;
+}
