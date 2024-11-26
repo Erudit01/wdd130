@@ -76,7 +76,7 @@
   grid-template-columns: 2fr 100px 2fr; /* Left column is 2fr, center gap is 100px, right column is 2fr */
   grid-template-rows: 25vh 50vh 25vh; /* Red and blue are 25vh, green and yellow are 50vh */
   grid-template-areas:
-    "red red red"     /* Row 1: only red */
+    "red red red" /* Row 1: only red */
     "green . yellow" /* Row 2: green on the left, gap in the center, yellow on the right */
     "blue blue blue"; /* Row 3: only blue */
   justify-items: center;
@@ -230,7 +230,7 @@
 .hint {
   border: 1px solid grey;
   background: #e0e0e0;
-  padding: .5em;
+  padding: 0.5em;
   position: relative;
   margin: 1em 0;
 }
@@ -247,7 +247,7 @@
   display: none;
 }
 
-.hint input[type=checkbox] {
+.hint input[type="checkbox"] {
   position: absolute;
   width: 100%;
   height: 100%;
@@ -256,7 +256,7 @@
   cursor: pointer;
 }
 
-.hint input[type=checkbox]:checked ~ div {
+.hint input[type="checkbox"]:checked ~ div {
   display: block;
 }
 
@@ -285,11 +285,11 @@
   transform: translate(-2px, 0) rotate(-45deg);
 }
 
-.hint input[type=checkbox]:checked ~ i:before {
+.hint input[type="checkbox"]:checked ~ i:before {
   transform: translate(-2px, 0) rotate(45deg);
 }
 
-.hint input[type=checkbox]:checked ~ i:after {
+.hint input[type="checkbox"]:checked ~ i:after {
   transform: translate(2px, 0) rotate(-45deg);
 }
 
