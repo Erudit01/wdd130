@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap");
+style > #content {
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  text-align: center;
+  color: #335C67;
+  text-decoration: none;
+  padding: 35px;
+}
+
+body {
+  background-color: #fcfbfb;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #FFF3B0;
+  display: grid;
+  grid-template-columns: 150px auto;
+}
+
+nav a:hover {
+  background-color: #9E2A2B;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #FFF3B0;
+  color: #f1faee;
+  padding: 25px 50px;
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+footer a {
+  color: #335C67;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: #9E2A2B;
+}
+
+.logo {
+  width: 80px;
+}
+
+footer p {
+  color: #d9c2a3;
+  font-size: 1.2em;
+}
+
+footer p a:hover {
+  text-decoration: underline;
+}
