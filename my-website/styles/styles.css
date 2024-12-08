@@ -23,16 +23,24 @@ body {
   font-size: 22px;
   margin: 0;
   padding: 0;
+  width: 100%;
+  max-width: 100%;
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   align-items: center;
   background-color: #FFF3B0;
   grid-template-columns: 150px auto;
   padding: 10px;
 }
+
+#hero{
+  max-width: 100%;
+  overflow: hidden;
+}
+
+
 
 nav a:hover {
   background-color: #9E2A2B;
@@ -71,16 +79,25 @@ footer p a:hover {
   text-decoration: underline;
 }
 
+#empty {
+  background-color: #111;
+  width: 100%;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+
 .sidenav {
+  /* display: grid; */
   height: 100%;
   width: 160px;
   position: fixed;
-  z-index: 1;
   top: 0;
   left: 0;
   background-color: #111;
   overflow-x: hidden;
   padding-top: 20px;
+  margin-top: 226px;
+  grid-column: 1/2;
 }
 
 .sidenav a {
@@ -95,10 +112,22 @@ footer p a:hover {
   color: #f1f1f1;
 }
 
-.main {
-  margin-left: 160px; /* Same as the width of the sidenav */
+main {
+  display: grid;
+  grid-template-columns: 160px auto;
+  grid-template-rows: 1fr;
   font-size: 28px; /* Increased text to enable scrolling */
-  padding: 0px 10px;
+}
+
+.main{
+  /* display: grid; */
+  grid-column: 2/3;
+  width: 100%;
+}
+
+.main p, .main h2{
+  width: 50%;
+  margin: 30px auto;
 }
 
 @media screen and (max-height: 450px) {
